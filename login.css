@@ -16,8 +16,8 @@ body {
 .log {
   background: black;
   width: 95%;
-  max-width: 500px;
-  min-height: 600px;
+  max-width: 1000px;
+  min-height: 1300px;
   padding: 40px;
   border-radius: 20px;
   color: white;
@@ -46,6 +46,7 @@ button {
   border: none;
   font-size: 16px;
   cursor: pointer;
+  color: red;
 }#msg{
   color: darkred;
   text-align: center;
