@@ -1,80 +1,52 @@
-
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
-body{
+body {
   height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background: lightgray;
   font-family: Arial, sans-serif;
 }
+
 .log {
   background: black;
-  width: 90%;
-  max-width: 850px;
-  min-height: 1000px;
-  padding: 30px;
-  margin: auto;
+  width: 95%;
+  max-width: 500px;
+  min-height: 600px;
+  padding: 40px;
+  border-radius: 20px;
   color: white;
-  border-radius: 15px;
-}
-/* البوكس */
-.inputs{
-  width: 50%;
-  max-width: 380px;
-  min-height: 260px;
-  background: #111;
-  border-radius: 14px;
-  padding: 25px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
-/* العنوان */
-h1{
+h2 {
   text-align: center;
-  color: white;
-  margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-/* input */
 input {
   width: 100%;
-  padding: 15px;
-  margin-top: 12px;
-  border-radius: 10px; 
-  background: darkgray; 
-  color: white; 
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 12px;
   border: none;
+  font-size: 16px;
 }
 
-/* الزرار */
-button{
+button {
   width: 100%;
-  padding: 12px;
-  border-radius: 25px;
+  padding: 18px;
+  margin-top: 18px;
+  border-radius: 12px;
   border: none;
-  background: purple;
-  color: white;
+  font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
-  transition: 0.3s;
-}
-
-button:hover{
-  background: #b300ff;
-  transform: scale(1.03);
-} 
-#msg{
+}#msg{
   color: darkred;
   text-align: center;
   margin: auto; 
