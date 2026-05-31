@@ -16,8 +16,8 @@ body {
 .log {
   background: black;
   width: 95%;
-  max-width: 500px;
-  min-height: 600px;
+  max-width: 380px;
+  min-height: 480px;
   padding: 40px;
   border-radius: 20px;
   color: white;
